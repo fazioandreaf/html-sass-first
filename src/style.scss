@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+$grigioPinguino: rgb(153, 145, 145);
+$gialloZafferano: rgb(230, 230, 43);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    body {
+        display: flex;
+        flex-direction: column;
+        font-family: Roboto,'san-serif';
+        .container{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            background-color: $grigioPinguino;
+            span{
+                font-style: italic;
+            }
+
+        }
+        button{
+            background-color: $gialloZafferano;
+        }
+    }
+}

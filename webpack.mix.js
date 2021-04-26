@@ -5,4 +5,6 @@ let mix = require('laravel-mix');
 mix
 .js('src/app.js', 'dist')
 .sass('src/style.scss','')
+// stringa per inserire html da src a default
+.copy('src/indexe.html','dist')
 .setPublicPath('dist');
